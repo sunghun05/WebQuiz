@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'redditMono';
+    font-weight: 100;
+    src: url('fonts/RedditMono1/static/RedditMono-Light.woff') format("woff");
+}
+@font-face {
+    font-family: 'Nova';
+    font-weight: 100;
+    src: url('fonts/Nova_Mono/NovaMono-Regular.woff') format("woff");
+}
