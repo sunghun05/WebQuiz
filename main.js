@@ -1,18 +1,32 @@
-const title = document.querySelector('.head h1');
-
-
+const main = document.querySelector(".title");
+const title = document.querySelector('.head');
+const bar = document.querySelector('#mar');
+const login = document.querySelector('#login');
+let f_s;
 let wheel = [0, ];
 let len ;
+let sum = 0;
+
 window.addEventListener('wheel', (event) => {
+    console.log(bar.getBoundingClientRect().top);
+    f_s = title.style.fontSize;
     let status = event.deltaY;
     len = wheel.length;
     wheel.push(status);
-    // console.log(wheel);
-    // console.log(wheel[len]-wheel[len-1]);
-    if(wheel[len]-wheel[len-1] > 0){
-        console.log("up");
 
-    } else if (wheel[len]-wheel[len-1] < 0){
-        title.style.fontSize = 5+'px';
+
+    if(wheel[len] < 0 && bar.getBoundingClientRect().top >= 60){//down
+
+        title.style.visibility = 'visible';
+        title.style.fontSize = "150px";
+
+    } else if (wheel[len] > 0){//up
+        main.display = '-webkit-inline-box';
+        title.style.fontSize = "xx-large";
+    }
+    if(bar.getBoundingClientRect().top < 0){
+
     }
 })
+
+
