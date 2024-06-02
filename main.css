@@ -56,11 +56,47 @@ h1 {
 }
 #mar {
     margin : 233px 10% 0 10%;
-}
-#menu {
-    display: flex;
+/*    background image changes as the topic changed         */
+
 }
 .topic {
     display: flex;
     justify-content: center;
+}
+#menu {
+    display : grid;
+    grid-template-columns : 1fr 1fr 1fr;
+    grid-gap: 1em;
+    gap: 1em;
+
+    /*grid-auto-rows: minmax(300px, auto);*/
+
+}
+.button {
+    display: flex;
+
+    width: 150px;
+    height : 40px;
+
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    /*box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;*/
+    /*box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;*/
+    /*box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;*/
+    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;*/
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: grab;
+}
+.button p {margin: 0px;}
+.button:hover {
+    transform: scale(1.07);
+    /*box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
+    /*box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;*/
+    /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;*/
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
