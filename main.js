@@ -2,11 +2,12 @@ const main = document.querySelector(".title");
 const title = document.querySelector('.head');
 const bar = document.querySelector('#mar');
 const login = document.querySelector('#login');
+const b = document.querySelectorAll(".button");
 let f_s;
 let wheel = [0, ];
 let len ;
-let sum = 0;
 
+let sum = 0;
 window.addEventListener('wheel', (event) => {
     console.log(bar.getBoundingClientRect().top);
     f_s = title.style.fontSize;
@@ -28,5 +29,7 @@ window.addEventListener('wheel', (event) => {
 
     }
 })
-
+b.addEventListener('click', (ev) => {
+    console.log(b.value);
+})
 
