@@ -8,7 +8,7 @@ let len ;
 let sum = 0;
 
 window.addEventListener('wheel', (event) => {
-    console.log(bar.getBoundingClientRect().top);
+    // console.log(bar.getBoundingClientRect().top);
     f_s = title.style.fontSize;
     let status = event.deltaY;
     len = wheel.length;
@@ -23,9 +23,6 @@ window.addEventListener('wheel', (event) => {
     } else if (wheel[len] > 0){//up
         main.display = '-webkit-inline-box';
         title.style.fontSize = "xx-large";
-    }
-    if(bar.getBoundingClientRect().top < 0){
-
     }
 })
 
