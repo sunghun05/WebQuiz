@@ -91,9 +91,10 @@ body {
     /*justify-content: center;*/
     place-items: center;
 
-    height: 96px;
+    /*height: ;*/
 
-    grid-template-columns : 1fr 1fr 1fr;
+    grid-template-columns : repeat(auto-fit, minmax(150px, 2fr));
+    grid-auto-rows: 40px;
     grid-gap: 1em;
     gap: 1em;
 
