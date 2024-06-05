@@ -14,7 +14,7 @@ window.addEventListener('wheel', (event) => {
     len = wheel.length;
     wheel.push(status);
     // title.style.margin = '0px';
-    if(wheel[len] < 0 && bar.getBoundingClientRect().top >= 100){//down
+    if(wheel[len] < 0 && bar.getBoundingClientRect().top >= 140){//down
         // title.style.margin = '0px';
         title.style.visibility = 'visible';
         title.style.fontSize = "200px";

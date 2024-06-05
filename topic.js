@@ -2,34 +2,45 @@ const topicBu = document.querySelectorAll('.button');
 // const backGround = document.getElementById("mar");
 const backGround = document.querySelector('#tpcimg');
 const topics = new Array('math', 'nature', 'universe', 'korean', 'english', 'dutch');
-let topic;
+const tpname = document.querySelector('#tpname');
+
+//init
+let topic = topics[0];
+tpname.innerHTML = topic;
+
 topicBu[0].addEventListener('click', (e) => {
     topic = topics[0];
+    tpname.innerHTML = topic;
     //console.log(topic);
     // backgroundChanger(0);
 })
 topicBu[1].addEventListener('click', (e) => {
     topic = topics[1];
+    tpname.innerHTML = topic;
     //console.log(topic);
     // backgroundChanger(1);
 })
 topicBu[2].addEventListener('click', (e) => {
     topic = topics[2];
+    tpname.innerHTML = topic;
     //console.log(topic);
     // backgroundChanger(2);
 })
 topicBu[3].addEventListener('click', (e) => {
     topic = topics[3];
+    tpname.innerHTML = topic;
     //console.log(topic);
     // backgroundChanger(3);
 })
 topicBu[4].addEventListener('click', (e) => {
     topic = topics[4];
+    tpname.innerHTML = topic;
     //console.log(topic);
     // backgroundChanger(4);
 })
 topicBu[5].addEventListener('click', (e) => {
     topic = topics[5];
+    tpname.innerHTML = topic;
     //console.log(topic);
     // backgroundChanger(5);
 })
