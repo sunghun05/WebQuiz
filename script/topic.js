@@ -1,7 +1,7 @@
 const topicBu = document.querySelectorAll('.button');
 // const backGround = document.getElementById("mar");
 const backGround = document.querySelector('#tpcimg');
-const topics = new Array('math', 'nature', 'universe', 'korean', 'english', 'dutch');
+const topics = new Array('Math', 'Nature', 'Universe', 'Korean', 'English', 'Germany');
 const tpname = document.querySelector('#tpname');
 
 //init

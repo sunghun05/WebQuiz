@@ -25,14 +25,16 @@ body {
 .head{
     display : block;
 
-    font-family: 'Nova', sans-serif;
+    font-family: 'RalewayT', sans-serif;
     font-size : 200px;
 
     align-content: center;
-    text-align: center;
+    /*text-align: center;*/
 
     width: 500px;
     /*height: 250px;*/
+
+    margin : 0 0 0 35px;
 
     border: 10px;
     border-radius: 10px;
@@ -95,7 +97,7 @@ body {
     grid-gap: 1em;
     gap: 1em;
 
-    margin: 8%;
+    margin: 8% 20% 8% 20%;
 
     /*grid-auto-rows: minmax(300px, auto);*/
 
@@ -146,7 +148,13 @@ body {
     display:flex;
     /*justify-content: center;*/
     align-items: center;
-    flex-direction: column;}
+    flex-direction: column;
+
+    margin : 40px 0 0 0;
+}
 .quiz {
     width: 70%;
+    padding : 5%;
+    border-radius: 10px;
+    border: 1px solid black;
 }
