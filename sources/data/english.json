@@ -1,0 +1,52 @@
+[
+  {
+    "question": "다음 중 '탐욕스러운'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Greedy", "Altruistic", "Generous", "Benevolent"],
+    "answer": "Greedy"
+  },
+  {
+    "question": "'무례한, 건방진'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Polite", "Impertinent", "Respectful", "Courteous"],
+    "answer": "Impertinent"
+  },
+  {
+    "question": "'지칠 줄 모르는, 끈기 있는'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Weary", "Indefatigable", "Exhausted", "Fatigued"],
+    "answer": "Indefatigable"
+  },
+  {
+    "question": "'엄청난, 막대한'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Tiny", "Enormous", "Minuscule", "Minute"],
+    "answer": "Enormous"
+  },
+  {
+    "question": "'우울한, 침울한'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Joyful", "Melancholic", "Cheerful", "Elated"],
+    "answer": "Melancholic"
+  },
+  {
+    "question": "'임박한, 절박한'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Distant", "Imminent", "Remote", "Delayed"],
+    "answer": "Imminent"
+  },
+  {
+    "question": "'견고한, 확고한'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Fragile", "Tenuous", "Robust", "Feeble"],
+    "answer": "Robust"
+  },
+  {
+    "question": "'변덕스러운, 불안정한'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Stable", "Capricious", "Consistent", "Steady"],
+    "answer": "Capricious"
+  },
+  {
+    "question": "'교활한, 음흉한'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Honest", "Devious", "Sincere", "Straightforward"],
+    "answer": "Devious"
+  },
+  {
+    "question": "'쾌활한, 명랑한'에 해당하는 영어 단어는 무엇인가요?",
+    "options": ["Gloomy", "Jovial", "Morose", "Sullen"],
+    "answer": "Jovial"
+  }
+]
