@@ -8,12 +8,30 @@
 
 </head>
 <body>
-    <div id="Blogin">
-        dddddd
-    </div>
+
     <div class="title">
         <div class="head">Quiz</div><br>
-        <div id="login">login</div>
+        <div id="login">log</div>
+    </div>
+    <div id="Blogin">
+        <div id="logcontent">
+            <div id="content"><span>log</span>
+                <div id="img">
+
+                </div>
+
+            </div>
+            <div id="scoreboard">
+                <div id="math">math : </div>
+                <div id="nature">nature : </div>
+                <div id="universe">universe : </div>
+                <div id="korean">korean : </div>
+                <div id="english">english : </div>
+                <div id="capital">capital : </div>
+            </div>
+        </div>
+
+        <div></div>
     </div>
     <div id="mar">
         <div class="topic" style="font-size: 30px">topic</div><br>
@@ -26,16 +44,25 @@
                 <div class="button"><p>english</p></div>
                 <div class="button"><p>capital</p></div>
             </nav>
-            <div ></div>
+            <div></div>
         </div><br>
         <div class='topic' style="font-size: 30px" id="tpname"></div>
         <br><div class="topic">select correct answer</div><br><hr>
         <div class="container">
-
+<!--            insert questions-->
+        </div>
+        <div id="sub">
+            <button type="reset" id="reset" onclick="createQuestion(topic)">reset</button>
+            <button type="submit" id="submit">submit</button>
         </div>
     </div>
     <script src="script/animation.js"></script>
     <script src="script/topic.js"></script>
     <script src="script/qmk.js"></script>
 </body>
+<footer>
+    <div>2024-06-09 웹 프로그래밍 과제 - 퀴즈 프로그램</div>
+    <div>깃허브 링크 : <a href="https://sunghun05.github.io/WebQuiz/">github pages   /</a>
+        <a href="https://github.com/sunghun05">   github profile</a></div>
+</footer>
 </html>

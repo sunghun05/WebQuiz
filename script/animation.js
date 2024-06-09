@@ -1,4 +1,4 @@
-const main = document.querySelector(".title");
+
 const title = document.querySelector('.head');
 const bar = document.querySelector('#mar');
 let f_s;
