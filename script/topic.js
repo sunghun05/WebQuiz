@@ -128,37 +128,37 @@ async function createQuestion(topic) {  //선택된 주제를 인수로 전달�
 }
 async function getMath() {
     try {
-        const res = await fetch('../sources/data/math.json');       //for문의 루프를 기다리기 위해 비동기 함수로 선언하고 await을 이용
+        const res = await fetch('sources/data/math.json');       //for문의 루프를 기다리기 위해 비동기 함수로 선언하고 await을 이용
         return await res.json();                                                    //가져온 json파일은 json형식에 맞게 parsing 필요
     } catch (error) {console.error("Error", error);}                                //에러에 대한 예외처리지만 웹에서 가져오는 api가 아니고 파일이 있으므로 역할을 하지는 않는다.
 }                                                                                   //주제에 따라 각각 함수로 나눈 이유는 함수여야만 프로미스를 리턴할 수 있기 때문이라고 생각했다.
 async function getNature() {
     try {
-        const res = await fetch('../sources/data/nature.json');
+        const res = await fetch('sources/data/nature.json');
         return await res.json();
     } catch (error) {console.error("Error", error);}
 }
 async function getUniverse() {
     try {
-        const res = await fetch('../sources/data/universe.json');
+        const res = await fetch('sources/data/universe.json');
         return await res.json();
     } catch (error) {console.error("Error", error);}
 }
 async function getKor() {
     try {
-        const res = await fetch('../sources/data/korean.json');
+        const res = await fetch('sources/data/korean.json');
         return await res.json();
     } catch (error) {console.error("Error", error);}
 }
 async function getEng() {
     try {
-        const res = await fetch('../sources/data/english.json');
+        const res = await fetch('sources/data/english.json');
         return await res.json();
     } catch (error) {console.error("Error", error);}
 }
 async function getCap() {
     try {
-        const res = await fetch('../sources/data/capital.json');
+        const res = await fetch('sources/data/capital.json');
         return await res.json();
     } catch (error) {console.error("Error", error);}
 }
