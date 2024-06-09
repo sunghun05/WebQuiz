@@ -35,9 +35,9 @@
     "answer": "√(a^2 + b^2)"
   },
   {
-    "question": "도형의 내접하는 원의 반지름을 구하는 공식은 무엇인가요? (삼각형의 반지름 r)",
-    "options": ["A / s", "s / A", "A / P", "P / A"],
-    "answer": "A / s"
+    "question": "다음 중 주어진 함수 \nf\n(\nx\n)\n=\nx^2\n−\n4\nx\n+\n3의 근이 아닌 것은 무엇인가요?",
+    "options": ["x=1", "x=3", "x=−1", "x=4"],
+    "answer": "x=-1"
   },
   {
     "question": "이차방정식 ax^2 + bx + c = 0의 판별식 D는 무엇인가요?",

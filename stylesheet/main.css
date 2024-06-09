@@ -110,8 +110,8 @@ body {
     display:grid;
     width: 200px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 10px;
-    gap: 10px;
+    grid-gap: 40px;
+    gap: 40px;
 }
 #scoreboard > * {
     width: 200px;
